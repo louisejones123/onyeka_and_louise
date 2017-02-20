@@ -3,3 +3,45 @@
   position: relative;
   top: -11px;
 }
+
+.jumbotron {
+	padding-top: 90px;
+    min-height: 600px;
+    margin-bottom: 0;
+	background-image: url("images/fruit-and-veg.jpg");
+	background-size: cover;
+	background-attachment: fixed;
+}
+.jumbotron .form-group {
+	line-height: 1em;
+}
+.jumbotron label {
+	color: white;
+	font-size: 20px
+}
+#mission {
+	background-color: rgba(32, 35, 41, 0.9);
+	color: #ddd;
+	text-align: center;
+}
+
+#buzz {
+	text-align: center;
+}
+h2{
+	font-family: 'Sansita', sans-serif;
+}
+
+.navbar-inverse {
+    background-color: rgba(32, 35, 41,0.8);
+}
+
+img .img-circle {
+	max-width: 50px
+}
+
+.col-sm-4 .img-circle {
+	max-height: 200px;
+	max-width: 200px
+}
+
