@@ -1,215 +1,188 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Code First: Girls Alumni</title>
+	<title>Code First: Girls Alumni</title>
 
-  <link rel="stylesheet" type="text/css" href="bootstrap-3.3.7-dist/css/bootstrap.min.css">
-  <link href="https://fonts.googleapis.com/css?family=Sansita" rel="stylesheet">
-  <link rel="stylesheet" type="text/css" href="main.css">
+	<link rel="stylesheet" type="text/css" href="bootstrap-3.3.7-dist/css/bootstrap.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Sansita" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="main.css">
+	<script>
+		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.js"></script>
-  <!-- Latest compiled and minified JavaScript -->
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-  <script>
-    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+		ga('create', 'UA-92347974-1', 'auto');
+		ga('send', 'pageview');
 
-    ga('create', 'UA-92347974-1', 'auto');
-    ga('send', 'pageview');
-
-  </script>
+	</script>
 </head>
 
 
 <body>
-  <!--navbar-->
-  <div class="container-fluid">
-    <nav class="navbar navbar-inverse navbar-fixed-top">
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="#"><img src="images/code-first-girls-logo.png" class="logo" alt="Code First: Girls logo"></a>
-        </div>
-        <div id="navbar" class="collapse navbar-collapse">
-          <ul class="nav navbar-nav navbar-right">
-            <li class="navbullets"><a href="#about">About</a></li>
-            <li class="navbullets"><a href="#buzz">The Hub</a></li>
-            <li class="navbullets"><a href="#contact">Stay in touch</a></li>
-          </ul>
-        </div><!--/.nav-collapse -->
-      </div>
-      <div id="navbar" class="collapse navbar-collapse">
-        <ul class="nav navbar-nav navbar-right">
-          <li class="navbullets"><a href=#about>About</a></li>
-          <li class="navbullets"><a href=#The_Hub>The Hub</a></li>
-          <li class="navbullets"><a href=#Get_in_Touch>Get in touch</a></li>
-          <li class="navbullets"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Course Materials<span class="caret"></span></a>
-          <ul class="dropdown-menu">
-                    <li class="dropdown-header">Course 1-2</li>
-                    <li><a href="#">Course 1</a></li>
-                    <li><a href="#">Course 2</a></li>
-                    <li role="separator" class="divider"></li>
-                    <li class="dropdown-header">Course 3-5</li>
-                    <li><a href="#">Course 3</a></li>
-                    <li><a href="#">Course 4</a></li>
-                    <li><a href="#">Course 5</a></li>
-                    <li role="separator" class="divider"></li>
-                    <li class="dropdown-header">Course 6-7</li>
-                    <li><a href="#">Course 6</a></li>
-                    <li><a href="#">Course 7</a></li>
-        </ul>
-      </div><!--/.nav-collapse -->
-    </div>
-  </nav>
- </div>
-    </nav>
-  </div>
-  <!--Carousel-->
-  <div class="container-fluid">
-    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-      <!-- Indicators -->
+	<!--navbar-->
+	<div class="container-fluid">
+		<nav class="navbar navbar-inverse navbar-fixed-top">
+			<div class="container">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="#"><img src="images/code-first-girls-logo.png" class="logo" alt="Code First: Girls logo"></a>
+					<div id="navbar" class="collapse navbar-collapse">
+						<ul class="nav navbar-nav navbar-right">
+							<li class="navbullets"><a href=#about>About</a></li>
+							<li class="navbullets"><a href=#The_Hub>The Hub</a></li>
+							<li class="navbullets"><a href=#Get_in_Touch>Get in touch</a></li>
+							<li class="navbullets"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Course Materials<span class="caret"></span></a>
+								<ul class="dropdown-menu">
+									<li class="dropdown-header">Course 1-2</li>
+									<li><a href="#">Course 1</a></li>
+									<li><a href="#">Course 2</a></li>
+									<li role="separator" class="divider"></li>
+									<li class="dropdown-header">Course 3-5</li>
+									<li><a href="#">Course 3</a></li>
+									<li><a href="#">Course 4</a></li>
+									<li><a href="#">Course 5</a></li>
+									<li role="separator" class="divider"></li>
+									<li class="dropdown-header">Course 6-7</li>
+									<li><a href="#">Course 6</a></li>
+									<li><a href="#">Course 7</a></li>
+								</ul>
+							</div><!--/.nav-collapse -->
+						</div>
+					</nav>
+				</div>
+			</nav>
+		</div>
+		<!--Carousel-->
+		<div class="container-fluid">
+			<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+				<!-- Indicators -->
 
-      <ol class="carousel-indicators">
-        <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-        <li data-target="#carousel-example-generic" data-slide-to="1" class></li>
-        <li data-target="#carousel-example-generic" data-slide-to="2" class></li>
-      </ol>
+				<ol class="carousel-indicators">
+					<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+					<li data-target="#carousel-example-generic" data-slide-to="1" class></li>
+					<li data-target="#carousel-example-generic" data-slide-to="2" class></li>
+				</ol>
 
-      <!-- Wrapper for slides -->
-      <div class="carousel-inner" role="listbox">
-        <div class="item active">
-          <img src="images/computer-on-desk.jpg" alt="Computer on a desk">
-          <div class="carousel-caption">
-            <div class="carousel-caption">
-              <h3>Code First: Girls Alumni Network</h3>
-              <a class="btn btn-lg btn-primary" href="#about" role="button">Find out about us</a>
-            </div>
-          </div>
-        </div>
-        <div class="item">
-          <img src="images/books-shelf.jpg" alt="Books on a bookshelf with a bird's nest on top">
-          <div class="carousel-caption">
-            <div class="carousel-caption">
-              <h3>Access all course materials</h3>
-              <a class="btn btn-lg btn-primary" href="#buzz" role="button">Download now</a>
-            </div>
-          </div>
-        </div>
-        <div class="item">
-          <img src="images/stay-in-touch.jpg" alt="iPad resting on top of an Apple Max">
-          <div class="carousel-caption">
-            <div class="carousel-caption">
-              <h3>Keep up to date with events and news</h3>
-              <a class="btn btn-lg btn-primary" href="#contact" role="button">Stay in touch</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+				<!-- Wrapper for slides -->
+				<div class="carousel-inner" role="listbox">
+					<div class="item active">
+						<img src="images/computer-on-desk.jpg" alt="Computer on a desk">
+						<div class="carousel-caption">
+							<div class="carousel-caption">
+								<h3>Code First: Girls Alumni Network</h3>
+								<a class="btn btn-lg btn-primary" href="#about" role="button">Find out about us</a>
+							</div>
+						</div>
+					</div>
+					<div class="item">
+						<img src="images/books-shelf.jpg" alt="Books on a bookshelf with a bird's nest on top">
+						<div class="carousel-caption">
+							<div class="carousel-caption">
+								<h3>Access all course materials</h3>
+								<a class="btn btn-lg btn-primary" href="#buzz" role="button">Download now</a>
+							</div>
+						</div>
+					</div>
+					<div class="item">
+						<img src="images/stay-in-touch.jpg" alt="iPad resting on top of an Apple Max">
+						<div class="carousel-caption">
+							<div class="carousel-caption">
+								<h3>Keep up to date with events and news</h3>
+								<a class="btn btn-lg btn-primary" href="#contact" role="button">Stay in touch</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
 
 
-    <!-- Controls -->
-    <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
-      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-      <span class="sr-only">Previous</span>
-    </a>
-    <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
-      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-      <span class="sr-only">Next</span>
-    </a>
+			<!-- Controls -->
+			<a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+				<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+				<span class="sr-only">Previous</span>
+			</a>
+			<a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+				<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+				<span class="sr-only">Next</span>
+			</a>
 
-    <div class="container-fluid">
-      <div id="about">
-        <h2>Code First: Girls Alumni Network<br />About us</h2>
-        <h2><small>This page was created to help all women on the Code First: Girls Professional Course keep up-to-date and on-track with the course.</small></h2>
-        <h2><small>You can download all course materials quickly and easily as well as signing up to our mailing list so you'll never miss any alumni events.</small></h2>
-      </div>
-    </div>
-  </div>
-  <!--course materials-->
-  <div id="buzz">
-    <div class="container">
-      <h2>The Hub<br /><small>Download all course materials</small></h2>
-        <div class="row">
-          <div class="col-sm-4">
-            <p class="text-center">
-              <img class="img-circle" src='images/computer.jpg' alt="">
-            </p>
-            <blockquote>
-              <h3>Lessons 1 to 2</h3>
-              <p><a href="session_materials/ProsSession1.pdf">Lesson 1 - introduction</a></p>
-              <p><a href="session_materials/ProsSession2.pdf">Lesson 2 - HTML and CSS</a></p>
-            </blockquote>
-          </div>
-          <div class="col-sm-4">
-            <p class="text-center">
-              <img class="img-circle" src='images/woman-coding.jpg' alt="">
-            </p>
-            <blockquote>
-              <h3>Lessons 3 to 5</h3>
-              <p><a href="session_materials/ProsSession3.pdf">Lesson 3 - Command Line and GitHub</a></p>
-              <p><a href="session_materials/ProsSession4.pdf">Lesson 4 - introduction to web frameworks</a></p>
-              <p><a href="session_materials/ProsSession5.pdf">Lesson 5 - Twitter Bootstrap</a></p>
-            </blockquote>
+			<div class="container-fluid">
+				<div id="about">
+					<h2>Code First: Girls Alumni Network<br />About us</h2>
+					<h2><small>This page was created to help all women on the Code First: Girls Professional Course keep up-to-date and on-track with the course.</small></h2>
+					<h2><small>You can download all course materials quickly and easily as well as signing up to our mailing list so you'll never miss any alumni events.</small></h2>
+				</div>
+			</div>
+		</div>
+		<!--course materials-->
+		<div id="buzz">
+			<div class="container">
+				<h2>The Hub<br /><small>Download all course materials</small></h2>
+				<div class="row">
+					<div class="col-sm-4">
+						<p class="text-center">
+							<img class="img-circle" src='images/computer.jpg' alt="">
+						</p>
+						<blockquote>
+							<h3>Lessons 1 to 2</h3>
+							<p><a href="session_materials/ProsSession1.pdf">Lesson 1 - introduction</a></p>
+							<p><a href="session_materials/ProsSession2.pdf">Lesson 2 - HTML and CSS</a></p>
+						</blockquote>
+					</div>
+					<div class="col-sm-4">
+						<p class="text-center">
+							<img class="img-circle" src='images/woman-coding.jpg' alt="">
+						</p>
+						<blockquote>
+							<h3>Lessons 3 to 5</h3>
+							<p><a href="session_materials/ProsSession3.pdf">Lesson 3 - Command Line and GitHub</a></p>
+							<p><a href="session_materials/ProsSession4.pdf">Lesson 4 - introduction to web frameworks</a></p>
+							<p><a href="session_materials/ProsSession5.pdf">Lesson 5 - Twitter Bootstrap</a></p>
+						</blockquote>
 
-          </div>
-          <div class="col-sm-4">
-            <p class="text-center">
-              <img class="img-circle" src='images/code.jpg' alt="">
-            </p>
-            <blockquote>
-              <h3>Lessons 6 to 7  </h3>
-              <p><a href="session_materials/ProsSession6.pdf">Lesson 6 - Javascript and JQuery</a></p>
-              <p><a href="session_materials/ProsSession7.pdf">Lesson 7 - plugins and metrics</a></p>
-            </blockquote>
-          </div> 
-        </div>
-    </div>
-  </div>
-  <div class="container-fluid">
-    <div id="contact">
-      <h2>Stay in touch</h2>
-      <h2><small>Sign up to our mailing list to find out about upcoming events and news from CF:G.</small></h2>
-      <!--add form here-->
-    </div>
-  </div>
-
-
-<!--social buttons-->
-      <a class="image-link" href="https://twitter.com/CodeFirstGirls" target="_blank">
-      <img src="images/Twitter.png" width="50" height="50">
-    </a>
-    <a class="image-link" href="https://www.facebook.com/codefirstgirls/" target="_blank">
-      <img src="images/Facebook.png" width="50" height="50">
-    </a>
-    <a class="image-link" href="https://www.linkedin.com/company/code-first-girls" target="_blank">
-      <img src="images/linkedin.png" width="50" height="50">
-    </a>
-
-   
-  <div id="mission">
-    <div class="container">
-      <h2>Code First: Girls Alumni network<br /><small>The place to go for all your CF:G needs</small></h2>
-      <!--social buttons-->
-      <a class="image-link" href="https://twitter.com/CodeFirstGirls" target="_blank">
-        <img src="images/Twitter.png" width="50" height="50">
-      </a>
-      <a class="image-link" href="https://www.facebook.com/codefirstgirls/" target="_blank">
-        <img src="images/Facebook.png" width="50" height="50">
-      </a>
-      <a class="image-link" href="https://www.linkedin.com/company/code-first-girls" target="_blank">
-        <img src="images/linkedin.png" width="50" height="50">
-      </a>
-    </div>
-  </div>
- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.js"></script>
-  <!-- Latest compiled and minified JavaScript -->
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-</body>
+					</div>
+					<div class="col-sm-4">
+						<p class="text-center">
+							<img class="img-circle" src='images/code.jpg' alt="">
+						</p>
+						<blockquote>
+							<h3>Lessons 6 to 7  </h3>
+							<p><a href="session_materials/ProsSession6.pdf">Lesson 6 - Javascript and JQuery</a></p>
+							<p><a href="session_materials/ProsSession7.pdf">Lesson 7 - plugins and metrics</a></p>
+						</blockquote>
+					</div> 
+				</div>
+			</div>
+		</div>
+		<div class="container-fluid">
+			<div id="contact">
+				<h2>Stay in touch</h2>
+				<h2><small>Sign up to our mailing list to find out about upcoming events and news from CF:G.</small></h2>
+				<!--add form here-->
+			</div>
+		</div>   
+		<div id="mission">
+			<div class="container">
+				<h2>Code First: Girls Alumni network<br /><small>The place to go for all your CF:G needs</small></h2>
+				<!--social buttons-->
+				<a class="image-link" href="https://twitter.com/CodeFirstGirls" target="_blank">
+					<img src="images/Twitter.png" width="50" height="50">
+				</a>
+				<a class="image-link" href="https://www.facebook.com/codefirstgirls/" target="_blank">
+					<img src="images/Facebook.png" width="50" height="50">
+				</a>
+				<a class="image-link" href="https://www.linkedin.com/company/code-first-girls" target="_blank">
+					<img src="images/linkedin.png" width="50" height="50">
+				</a>
+			</div>
+		</div>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.js"></script>
+		<!-- Latest compiled and minified JavaScript -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	</body>
