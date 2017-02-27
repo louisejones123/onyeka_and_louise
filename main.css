@@ -1,3 +1,9 @@
+html, body {
+  margin: 0;
+}
+navbar brand {
+	align-self: right
+}
 .logo {
   width: 200px;
   position: relative;
@@ -24,10 +30,10 @@ h2{
 .carousel-inner img {
 	padding-top: 60px;
 }
-img .img-square {
+img .img-cicle {
 	max-width: 100px
 }
-.col-sm-4 .img-square {
+.col-sm-4 .img-circle {
 	max-height: 200px;
 	max-width: 200px
 }
