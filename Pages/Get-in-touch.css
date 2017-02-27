@@ -1,6 +1,7 @@
 .form-style-3{
     max-width: 900px;
     font-family: 'Sansita', sans-serif;
+    text-align: center;
 }
 .form-style-3 label{
     display:block;
