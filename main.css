@@ -24,10 +24,10 @@ h2{
 .carousel-inner img {
 	padding-top: 60px;
 }
-img .img-circle {
-	max-width: 50px
+img .img-square {
+	max-width: 100px
 }
-.col-sm-4 .img-circle {
+.col-sm-4 .img-square {
 	max-height: 200px;
 	max-width: 200px
 }
