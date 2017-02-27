@@ -1,9 +1,6 @@
 html, body {
   margin: 0;
 }
-navbar brand {
-	align-self: right
-}
 .logo {
   width: 200px;
   position: relative;
@@ -21,7 +18,7 @@ navbar brand {
 	text-align: center;
 	padding-top: 30px;
 }
-h2{
+h2, h3,{
 	font-family: 'Sansita', sans-serif;
 }
 .navbar-inverse {
